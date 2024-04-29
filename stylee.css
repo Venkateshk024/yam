@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color:black;
     color:white;
 }
 
@@ -48,6 +48,8 @@ body img{
    
   }
   .biketwo ul{
+    flex-wrap: wrap-reverse;
+    flex-basis: 100%;
     position: static;
     margin-top:0;
 
@@ -115,6 +117,8 @@ footer{
     color:whitesmoke;
     transition:padding 2s;
     background-image:linear-gradient(135deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+
+ 
  }
  .instagram:hover{
   padding: 13px;
