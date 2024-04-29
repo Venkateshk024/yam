@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body img{
+    position: relative;
+    height:500px;
+    width: 500px;
+    margin:20px;
+    top:20px;
+    animation-delay: 0.5s;
+}
+.bike{
+    display:flex;
+   
+    
+}
+.bike h3{
+    margin:30px;
+    padding: 10px;
+    animation-delay:1s;
+}
+.bike ul{
+    margin: 30px;
+    position: relative;
+    top:55px;
+    right:100px;
+    animation-delay:1.5s;
+
+}
+.bike ul li{
+    padding: 10px;
+}
+@media screen and (max-width: 768px) {
+    .bike{
+        display: block;
+    }
+    .bike ul{
+        position:static;
+    }
+  .biketwo{
+    margin-left:20px;
+    flex-wrap: wrap-reverse;
+    flex-basis: 100%;
+   
+  }
+  .biketwo ul{
+    position: static;
+    margin-top:0;
+
+  }
+  .biketwo h3{
+   font-size: larger;
+   position: relative;
+   top:50px;
+
+   
+}
+.biketwo ul{
+    padding: 100px;
+    position:relative;
+    bottom:20px;
+}}
+.biketwo{
+    margin:20px;
+
+}
+.biketwo h3{
+    margin:30px;
+    padding: 10px;
+    margin-left: 20px;
+    animation-delay:2s;
+}
+.biketwo ul{
+    padding: 10px;
+    position:static;
+   margin-top: 70px;
+   margin-right: 60px;
+   animation-delay:1s;
+   animation-delay:2.5s;
+}
+.biketwo img{
+    animation-delay:3s;
+}
+.biketwo ul li{
+    padding:10px;
+}
+.biketwo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.bg{
+    background-color: black;
+    color:whitesmoke;
+}
+footer{
+    color: white;
+    position: relative;
+    text-align: center;
+  
+  }
+ .instagram{
+    display: inline-block;
+    background-image:linear-gradient(135deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+   text-decoration: none;
+   border-radius: 30px;
+   padding:10px;
+   margin: 5px;
+ }
+ .instagram a{
+    text-decoration: none;
+    color:whitesmoke;
+    transition:padding 2s;
+ 
+ }
+ .instagram:hover{
+  padding: 13px;
+  
+}
+.instagram a:hover{
+     color:whitesmoke;
+
+}
+.font{
+    font-family:'Times New Roman', Times, serif;
+}
+.anim{
+    opacity:0;
+    transform: translateY(30px);
+    animation:moveup 0.5s forwards;
+  }
+  @keyframes moveup{
+    100%{
+      opacity:1;
+      transform:translateY(0px);
+    }
+  }
