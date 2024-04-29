@@ -90,7 +90,6 @@ body img{
 }
 .biketwo{
     display: flex;
-    flex-wrap: wrap;
     flex-basis: 50%;
 }
 .bg{
